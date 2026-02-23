@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #eeee;
+}
+
+header {
+   width: 100vw;
+   height: 70px; 
+   border: red solid 2px;
+   display: flex;
+   justify-content: space-between;
+}
+
+header .nav-ul  {
+    display: flex;
+    position: relative;
+    height: 100%;
+    gap: 30px;
+    align-items: center;
+    padding: 0px 20px;
+}
