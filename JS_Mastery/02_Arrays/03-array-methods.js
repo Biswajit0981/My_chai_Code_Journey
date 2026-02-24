@@ -18,4 +18,4 @@ const totalRevenue = orders.reduce((acc, order) => {
     return acc;
 }, {spicy: [], mild:[]})
 
-console.log(totalRevenue)
+console.log(totalRevenue);

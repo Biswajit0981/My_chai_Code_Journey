@@ -63,4 +63,5 @@ console.log(stringArr.splice())
  * NonMutating: slice, flat, flatmap,concat
  * Searching: indexOf, includes
  * Array.isArray() -> checking is array or not.
+ *
 * */
