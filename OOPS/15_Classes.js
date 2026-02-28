@@ -9,4 +9,4 @@
  }
 
  const myClass = new MyClass("Roni", 12);
-myClass.getUser();
+ console.log(typeof myClass)
