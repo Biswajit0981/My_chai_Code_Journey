@@ -11,11 +11,11 @@ class Solution {
 
         for (let i = n - 2; i >= 0; i--) {
             if (arr[i] >= rightMostLeader) {
-                result.unshift(rightMostLeader);
                 rightMostLeader = arr[i];
+                result.unshift(rightMostLeader);
             }
         }
-        result.unshift(rightMostLeader);
+        // result.unshift(rightMostLeader);
 
         return result;
     }
